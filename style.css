@@ -36,3 +36,19 @@ nav {
     font-family: sans-serif;
     padding-top: 15px;
 }
+
+li {
+    display: inline;
+    list-style: none;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+
+li a:hover{
+    border-bottom: 2px solid var(--main-color);
+}
