@@ -280,3 +280,89 @@ footer .container {
 footer .heading-info {
     margin-bottom: 20px;
 }
+
+footer p {
+    line-height: 25px;
+}
+
+span {
+    color: var(--main-color);
+}
+
+hr {
+    margin-bottom: 20px;
+    border: var(--main-color);
+    width: 500px;
+    margin: 0 auto;
+}
+
+.para {
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Project End */
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+    .main-headings, .primary-heading{
+        font-size: 2.5rem;
+    }
+
+#our-story {
+    text-align: center;
+}
+
+#our-story .title {
+    transform: translateX(50px);
+}
+
+#our-story .line {
+    display: none;
+}
+
+.content-section {
+    text-align: center;
+}
+
+#our-story .img-container .img {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.coffee-container .img-container {
+    margin-top: 5rem;
+    width: 50%;
+}
+
+.title {
+    margin: 0 auto;
+}
+
+.title-two{
+    margin: 0 auto;
+}
+
+.title-three {
+    margin-left: 150px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+hr {
+    width: 400px;
+}
+
+.hr-two {
+    display: none;
+}
+
+.para {
+    margin-top: 10rem;
+}
+
+}
